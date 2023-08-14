@@ -1,0 +1,37 @@
+IFM
+{
+    toolwindow
+    {
+        bounds "0.0000000000 0.0388888903 0.3828125000 0.5111111403"
+        windows
+        {
+            panel "#BxElementProperties"
+            panel "#BxToolClipBrowser"
+            panel "#BxToolAnimationSetEditor"
+            panel "#BxFileManager"
+            panel "#BxScriptEditor"
+            panel "#SFMInfoPage"
+            panel "#CC_TemplatePage_Title"
+        }
+    }
+    toolwindow
+    {
+        bounds "0.0000000000 0.5500000119 1.0000000000 0.4166666865"
+        windows
+        {
+            panel "#BxToolTimeline"
+            panel "#BxToolStoryboard"
+            panel "#CC_PageTransportPage_Title"
+        }
+    }
+    toolwindow
+    {
+        bounds "0.3828125000 0.0388888903 0.6171875000 0.5111111403"
+        windows
+        {
+            panel "#BxToolEngineViewport"
+            panel "#BxConsole"
+            panel "#CC_EditorPage_Title"
+        }
+    }
+}

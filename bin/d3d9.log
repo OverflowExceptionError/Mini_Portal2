@@ -1,0 +1,39 @@
+[18:15:34.618] info:  No default config found for: C:\Program Files (x86)\Steam\steamapps\common\SFM\game2\portal2.exe
+[18:15:34.620] info:  Trying to open config file: c:\program files (x86)\steam\steamapps\common\sfm\game2\bin\.trex\bridge.conf
+[18:15:34.625] info:  Found user config file: c:\program files (x86)\steam\steamapps\common\sfm\game2\bin\.trex\bridge.conf
+[18:15:34.627] info:  Effective configuration:
+[18:15:34.630] info:    client.shaderVersion = 0
+[18:15:34.633] info:    presentSemaphoreMaxFrames = 1
+[18:15:34.636] info:    client.serverCrashFallback = False
+[18:15:34.638] info:  ==================
+[18:15:34.641] info:  TREX Bridge Client
+[18:15:34.644] info:  ==================
+[18:15:34.646] info:  Version: release-1.04-1-g5f25014
+[18:15:34.646] info:  Loaded d3d9.dll from C:\Program Files (x86)\Steam\steamapps\common\SFM\game2\portal2.exe
+[18:15:34.647] warn:  Injected DirectInput8Create proc detected!
+[18:15:34.661] info:  DirectInput8 hook attached.
+[18:15:34.663] info:  D3D9 successfully initialized!
+[18:15:34.663] info:  Initializing new shared memory object.
+[18:15:34.801] info:  Shared memory: [CmdAndDataQueue_ebeb80f9-b4be-491f-bca7-13cc7ab54c70] created and initialized successfully!
+[18:15:35.264] debug: Launching server with GUID ebeb80f9-b4be-491f-bca7-13cc7ab54c70
+[18:15:35.325] info:  Sending SYN command, waiting for ACK from server...
+[18:15:35.325] debug: Wrong command detected: Syn. Expected: Ack.
+[18:15:35.790] info:  Ack received! Handshake completed! Telling server to continue waiting for commands...
+[18:15:35.791] info:  Server crash recovery disabled
+[18:15:38.368] debug: DeviceType value is 4
+[18:15:38.368] debug: Creating D3D9 device...
+[18:15:38.672] debug: ...client-side D3D9 device successfully created!
+[18:15:38.673] debug: ...server-side D3D9 device creation command sent...
+[18:15:38.673] debug: ...waiting for create device ack response from server...
+[18:15:47.762] debug: ...server-side D3D9 device successfully created!
+[18:15:47.762] info:  Creating a NON thread-safe D3D9 device.
+[18:15:47.762] debug: Creating headless backbuffer.
+[18:15:59.449] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG handshake complete.
+[18:16:19.190] info:  Remix UI activated.
+[18:16:21.340] info:  Remix UI activated.
+[18:16:37.316] info:  Remix UI deactivated.
+[18:17:05.109] info:  Remix UI activated.
+[18:17:07.075] info:  Remix UI activated.
+[18:17:22.406] info:  Remix UI deactivated.
+[18:17:33.972] info:  Client window became inactive, disabling timeouts for bridge client...
+[18:17:37.029] info:  Client window became active, reenabling timeouts for bridge client...

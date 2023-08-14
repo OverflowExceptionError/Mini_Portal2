@@ -1,0 +1,157 @@
+html, body, * {
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px;
+}
+
+body {
+
+	background: #000 no-repeat center top;
+	margin:0;
+	padding:0;
+	color: #726e68;
+}
+
+p {
+	line-height: 19px;
+}
+
+a,a:hover,a:visited,a:active {
+	color:#b7b7b7;
+	text-decoration:none;
+	border: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#page {
+	background: #131313 no-repeat center top;
+	width: 280px;
+	border-left: 10px;
+	border-right: 1px;
+	border-top: 6px;
+	margin: 0px auto 0px auto;
+	box-shadow: 0 0 40px #000
+}
+
+#leftcol {
+	width: 280px;
+	float: center;
+}
+	#leftcol .linkbar {
+		color: #a89368;
+		margin: 0 0 0 0;
+	}
+
+	#leftcol .linkbar a {
+		color: #a89368;
+	}
+
+	#leftcol .linkbar p {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 10px;
+	}
+
+	#leftcol h1 {
+		font-size: 32px;
+		color: #eae9e5;
+		font-weight: normal;
+		margin: 0px 0 0 0;
+	}
+
+	#leftcol .datetime {
+		color: #a89368;
+		margin: 1px 0 50px 0;
+	}
+
+	#leftcol .caption {
+		color: #524f4b;
+		font-size: 11px;
+		margin-top: 3px;
+}
+	#leftcol .sfmlogo {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#leftcol .demo {
+		margin-bottom: 13px;
+	}
+
+	#leftcol .clickme {
+		margin-bottom: 35px;
+	}
+
+	#leftcol h1 {
+		font-weight: normal;
+		color: #eae9e5;
+		font-size: 14px;
+		margin: 0 0 4px 0;
+	}
+
+	#leftcol p {
+		margin: 0 0 10px 0;
+	}
+
+	#leftcol .application_header {
+		width: 281px;
+		height: 20px;
+		margin: 15px 0 5px 0;
+		font-size: 18px;
+		font-weight: bold;
+		display: block;
+	}
+	
+
+	#leftcol .filmgallery_link {
+		background: url(images/wiki_bg.jpg);
+		width: 281px;
+		height: 55px;
+		margin: 15px 0 15px 0;
+		display: block;
+	}
+	#leftcol .filmgallery_link div {
+		color: #a54a42;
+		padding: 18px 0 0 105px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	#leftcol .workshop_link {
+		background: url(images/wiki_bg.jpg);
+		width: 281px;
+		height: 55px;
+		margin: 15px 0 15px 0;
+		display: block;
+	}
+	#leftcol .workshop_link div {
+		color: #7295bc;
+		padding: 18px 0 0 64px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+.clear {
+	clear: both;
+}
+
+.nodeco:hover {
+	text-decoration: none;
+}
+
+select.selectbox 
+{
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 14px; 
+color : silver; 
+font-weight: normal; 
+background: #FFFFFF; 
+}
+
+/* CSS sprites */
+.socialnetworking { background: url(images/sn_sprite.png) no-repeat top left; display: inline-block; margin: 0 3px 0 3px; }
+.socialnetworking.facebook{ background-position: 0 0; width: 17px; height: 17px; }
+.socialnetworking.rss{ background-position: 0 -18px; width: 17px; height: 17px; }
+.socialnetworking.twitter{ background-position: 0 -36px; width: 17px; height: 17px; }

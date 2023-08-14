@@ -1,0 +1,96 @@
+@include "base.fgd"
+
+@PointClass base(Targetname, Angles) iconsprite("editor/env_wind.vmt") = de_env_wind : 
+	"An entity to control wind in the map. Partially (a little more so now) functional."
+[
+	//gustsound(sound) : "Gust Sound Filename" : "" : "Sound to be played to simulate the gusting wind."
+	minwind(integer) : "Min normal speed" : 20 : "Minimum speed of the wind while idling."
+	maxwind(integer) : "Max normal speed" : 50 : "Maximum speed of the wind while idling."
+
+	mingust(integer) : "Min gust speed" : 100 : "Minimum speed of wind gusts."
+	maxgust(integer) : "Max gust speed" : 250 : "Maximum speed of wind gusts."
+
+	mingustdelay(integer) : "Min gust delay" : 10 : "Minimum time delay between random gusts."
+	maxgustdelay(integer) : "Max gust delay" : 20 : "Maximum time delay between random gusts."
+
+	gustduration(integer) : "Gust Duration" : 5 : "How long will the wind gust for."
+
+	gustdirchange(integer) : "Max gust dir change (degrees)" : 20 : "Maximum amount that the wind's direction changes due to a gust."
+	
+	startenabled(choices) : "State when spawned" : 1 = 
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+	]
+
+	gustsenabled(choices) : "Gusts enabled on spawn?" : 1 =
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+	]
+
+	lerpdownduration(float) : "Smooth to stop duration" : 5 : "Duration that it takes for the wind to die down when it has been disabled."
+
+	lerpupduration(float) : "Smooth from stopped duration" : 5 : "Duration that it takes for the wind to build up to full force when it has been enabled."
+
+	input SwitchOnOff(integer) : "Switch the wind controller on or off."
+	input SwitchGustsOnOff(integer) : "Switch gusts on or off."
+	input SetMinWind(integer) : "Set the minimum wind force."
+	input SetMaxWind(integer) : "Set the maximum wind force."
+	input SetMinGust(integer) : "Set the minimum wind force while there is a gust."
+	input SetMaxGust(integer) : "Set the maximum wind force while there is a gust."
+	input SetMinGustDelay(float) : "Set the minimum delay between gusts."
+	input SetMaxGustDelay(float) : "Set the maximum delay between gusts."
+	input SetGustDirChange(integer) : "Set the largest angle by which a gust will change the direction of the wind."
+	input SetGustDuration(float) : "Set the duration in seconds that a gust will last for."
+	input SetLerpDownDuration(float) : "Set the duration that is spent easing thw wind force down to 0 when the wind is disabled."
+	input SetLerpUpDuration(float) : "Set the duration that is spent easing the wind force up to full when the wind is enabled."
+
+	output OnGustStart(void) : "Fired when a wind gust begins."
+	output OnGustEnd(void) : "Fired when a wind gust ends."
+]
+
+
+@SolidClass base( Targetname ) = de_func_smokevolume : "A brush entity that spawns smoke particles within its volume."
+[
+	spawnflags(flags) =
+	[
+		1 : "Emissive" : 0
+	]
+
+	Color1(color255) : "Particle Color1 (R G B)" : "255 255 255"
+	Color2(color255) : "Particle Color2 (R G B)" : "255 255 255"
+	material(material) : "Material" : "particle/particle_smokegrenade" : "The material to use for the particles"
+	ParticleDrawWidth(float) : "Particle Draw Width (units)" : 120 : "The size of the particles, in units/inches."
+	ParticleSpacingDistance(float) : "Particle Spacing Distance (units)" : 80 : "The distance between the particles inside the volume. The lower the number, the denser the particles, and the more overdraw there will be. It is best to keep it as high as you can without it looking bad."
+	DistanceFadeFar(float) : "Distance at which the particle will be fully transparent (invisible)."
+	DistanceFadeNear(float) : "Distance at which the particle will be at its maximum opacity."
+	DensityRampSpeed(float) : "Density Ramp Speed (seconds)" : 1 : "Time to go from density 0 to density 1, in seconds."
+
+	RotationSpeed(float) : "Rotation Speed (degrees/sec)" : 10 : "The speed that the particles should rotate, in degrees per second."
+	MovementSpeed(float) : "Movement Speed (units/sec)" : 10 : "The speed that the particles should move around, in units/inches per second."
+	Density(float) : "Density [0..1]" : 1
+	DrawInFastReflections(integer) : "Draw In Fast Reflections" : 0 : "Should the particles be drawn in reflections on materials with fast reflections?"
+
+	// Inputs
+	input SetRotationSpeed(float) : "Set the particle rotation speed (in degrees per second)."
+	input SetMovementSpeed(float) : "Set the particle movement speed (in inches per second)."
+	input SetDensity(float) : "Set the particle density. It should be a range from 0 to 1."
+]
+
+@PointClass base( prop_static_base ) color(255 255 0) sphere(fademindist) sphere(fademaxdist) studioprop() = de_prop_static : "A variation of the prop static which can be marked to fade out even at the highest dx level."
+[
+	forcefadeable(boolean) : "Force fadeable" : 0 : "Should we force this prop to obey the fading rules regardless of graphics settings?"
+	fastreflectionsonly(boolean) : "Fast reflections only" : 0 : "Is this prop only rendered in fast reflections?"
+]
+
+@NPCClass base(BaseNPC) studio("models/seagull.mdl") = npc_seagull : "Seagull"
+[
+	input FlyAway( string ) : "Forces the seagull to fly to the nearest crow flyto hint node."
+
+	deaf(choices) : "Deaf?" : 0 =
+	[
+		0 : "No."
+		1 : "Yes. Ignore sounds."
+	]
+]

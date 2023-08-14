@@ -1,0 +1,92 @@
+
+CQPropertyEditorTreeView
+{
+	font: 11px "Tahoma";
+}
+
+CQPropertyEditorTreeView::item
+{
+	margin-left: 4px;
+}
+	
+CQPropertyEditorTreeView::item:disabled
+{
+	color: rgb( 160, 160, 160, 50%);
+}
+
+CQPropertyEditorTreeView QLabel
+{
+	color: rgb( 160, 160, 160, 50%);
+	border-left-width: 4px;
+	max-height: 17px;
+	min-height: 17px;
+	}
+CQPropertyEditorTreeView QLabel:disabled
+{
+	color: rgb( 160, 160, 160);
+	font-style: italic;
+}
+
+
+
+QLineEdit,
+QComboBox[editable="true"],
+QAbstractSpinBox
+	{
+	font-style: bold;
+	}
+
+QLineEdit[frame="false"],
+QComboBox[frame="false"][editable="true"],
+QAbstractSpinBox[frame="false"]
+	{
+	border-image: url(tools:images/valve_base/frame_element.png) 2;
+	padding-left: 2px;
+	font-style: bold;
+	}
+QLineEdit[frame="false"]:hover,
+QComboBox[editable="true"][frame="false"]:hover,
+QAbstractSpinBox[frame="false"]:hover
+	{
+	border-image: url(tools:images/valve_base/frame_element_hover.png) 2;
+	}
+QLineEdit[frame="false"]:focus,
+QComboBox[editable="true"][frame="false"]:focus,
+QAbstractSpinBox[frame="false"]:focus
+	{
+	border-image: url(tools:images/valve_base/frame_focus.png) 3;
+	}
+
+
+CQPropertyEditorTreeView QCheckBox
+{
+	margin-left: 4;
+}
+
+CQPropertyWidget
+	{
+	background-color: rgb(255, 0, 0, 0%);
+	max-height: 10px;
+	}
+
+CQVMatrixLabel QPushButton
+{
+	min-width: 10px;
+	min-height: 3px;
+	max-height: 10px;
+	}
+
+CQVoidLabel QPushButton
+{
+	min-width: 10px;
+	min-height: 3px;
+	max-height: 10px;
+	}
+
+QHexEdit
+{
+	qproperty-addressAreaColor: rgb( 64, 64, 64);
+	qproperty-highlightingColor: rgb( 70, 10, 10);
+}
+
+

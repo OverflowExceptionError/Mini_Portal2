@@ -1,0 +1,237 @@
+/* Specifics for the SFM */
+
+
+
+CQExportShotListTableWidget
+{
+	qproperty-progressTextColor: rgb( 182, 182, 182 );
+	qproperty-doneTextColor: rgb( 138, 149, 186 );
+}
+
+CQConsoleTextEdit
+{
+	background-color: rgb( 44, 44, 44);
+	selection-color: rgb(255, 252, 229 );
+	selection-background-color: rgb( 0, 0, 255 );
+
+	font-family: "Courier";
+	font-size: 11px;
+}
+
+CQConsoleTextEdit:focus
+{
+	border-color: rgb( 39, 39, 39 );
+	background-color: rgb(39, 39, 39 );
+}
+
+
+CQPythonConsoleTextEdit
+{
+	background-color: rgb( 44, 44, 44);
+	selection-color: rgb(255, 252, 229 );
+	selection-background-color: rgb( 0, 0, 255 );
+	border-radius: 0px;
+	font-family: "Courier";
+	font-size: 11px;
+}
+
+CQPythonConsoleTextEdit:focus
+{
+	border-radius: 0px;
+	border-color: rgb( 39, 39, 39 );
+	background-color: rgb(39, 39, 39 );
+}
+
+
+CQPythonTextEdit
+{
+	border-image: url(tools:images/valve_base/frame_popupdialog.png) 4;
+	
+	qproperty-currentLineHighlightColor: rgb( 0, 0, 0 );
+	qproperty-lineNumberBackgroundColor: rgb( 60, 60, 60 );
+	qproperty-lineNumberColor: rgb( 100, 100, 100 );
+
+	font-family: "Courier";
+	font-size: 11px;
+
+}
+
+CQGraphEditorLineEdit[isMultiple="true"]
+{
+	border-image: url(tools:images/valve_base/frame_multiple.png) 3;
+}
+
+#CQAnimationSetPresetSliderBox QWidget
+{
+	background-color: rgb( 38, 38, 39 );
+	border: 1px rgb(255, 0, 0);
+}
+
+CQAnimationSetBalanceSlider
+{
+	background-color: rgb( 38, 38, 39 );
+}
+
+CQAnimationSetBackgroundWidget
+{
+	background-color: rgb( 38, 38, 39 );
+}
+
+QSplitter#AnimationSetEditorVerticalSplitter
+{
+	background-color: rgb( 38, 38, 39 );
+	margin: 0px;
+	border: 0px;
+	width: 6px;
+	height: 6px;
+}
+
+QSplitter#CQDagPickerDialogSplitter
+{
+	background-color: rgb( 54, 54, 54 );
+	margin: 0px;
+	border: 0px;
+	width: 6px;
+	height: 6px;
+}
+
+ 
+
+QSplitter#AnimationSetEditorVerticalSplitter::handle:vertical {
+     height: 8px;
+	image: url(tools:images/sfm/ase_splitter_handle_vertical.png);
+ }
+ 
+ 
+ 
+#CQAnimationSetPresetSliderBox QTabBar
+{
+	background-color: rgb( 38, 38, 39 );
+}
+
+#CQAnimationSetPresetSliderBox QTabBar::tab
+{
+	background-color: rgb( 54, 54, 54 );
+	border: 1px solid rgb(82, 82, 82 );
+	border-bottom-color: rgb(44, 44,44, 40%);
+	color: rgb(182, 182, 182);
+	min-height: 10px;
+	min-width: 10px;
+	image: url(tools:images/valve_base/empty.png);
+	padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+}
+
+#CQAnimationSetPresetSliderBox QTabBar::tab:!selected 
+{
+     margin-top: 2px; 
+}
+ 
+#CQAnimationSetPresetSliderBox QTabBar::tab:selected 
+{
+	color: rgb(200, 200, 200);
+    border-color: rgb( 182, 182,182, 40% );
+    border-bottom-color: rgb(44, 44,44, 40%);
+}
+
+CQAnimationSetControlSliderBox QWidget
+{
+	background-color: rgb( 38, 38, 39 );
+}
+
+.CQAnimationSetControlSliderBox
+{
+	background-color: rgb( 38, 38, 39 );
+	border: 1px solid rgb( 82, 82, 82, 50% );
+	border-radius: 2px;
+}
+
+
+
+#CQAnimationSetPresetSliderBox QFrame
+{
+	background-color: rgb( 57, 57, 57 );
+}
+
+QFrame#DarkerLine
+{
+	background-color: rgb( 48, 48, 48 );
+}
+ 	 
+CQPropertyEditorWidget
+{
+	spacing: 0px;
+	background-color: rgb( 255, 0, 0 );
+}
+
+
+CQPropertyEditorBackgroundWidget
+{
+	background-color: rgb( 255, 0, 0 );
+}
+
+CQSFMMainWindow
+{
+	background-color: rgb( 38, 38, 39 );
+}
+
+CQCornerWidget
+{
+	background-color: rgb( 54, 54, 54 );
+}
+
+CQMotionEditorOverlayView
+{
+	qproperty-timeSelectionColor: rgb( 52, 140, 45 );
+	qproperty-floatingModificationLayerColor: rgb( 140, 100, 34 );
+	qproperty-selectionBoundaryAlpha: 255 ;
+	qproperty-insideSelectionAlpha: 160;
+	qproperty-selectionGradient0Alpha: 64;
+	qproperty-selectionGradient1Alpha: 128;
+	qproperty-infiniteSelectionEdgeAlpha: 160;
+	qproperty-fallOffLineColor: : rgba( 0, 0, 0, 255 );
+	qproperty-holdLineColor: rgba( 255, 255, 255, 160 );
+}
+
+CQMotionEditorView
+{
+	qproperty-redCurveColor: rgb( 214, 66, 79 );
+	qproperty-greenCurveColor: rgb( 67, 192, 60 );
+	qproperty-blueCurveColor: rgb( 70, 102, 214 );
+	qproperty-whiteCurveColor: rgb( 214, 214, 214 );
+	qproperty-insideClipColor: rgb( 128, 128, 128, 255 );
+	qproperty-outsideClipColor: rgb( 38, 38, 38, 255 );
+	qproperty-soundwaveColor: rgb( 200, 200, 200, 255 );
+}
+
+CQTimelineScrollArea
+{
+	color: rgb( 37, 37, 37 );
+}
+
+CQGraphEditorTreeView
+{
+	border-width: 0px;
+}
+
+CQExportTauntDialog QLabel[bErrorText="true"]
+{
+	color: rgb( 214, 66, 79 )
+}
+
+CQExportTauntDialog QLineEdit[bErrorText="true"]
+{
+	color: rgb( 214, 66, 79 )
+}
+
+CQSFMTimeLabel
+{
+	font-size: 20px;
+}
+
+
+CQWrappedExtensionEditor
+{
+	background-color: rgb( 54, 54, 54);
+}

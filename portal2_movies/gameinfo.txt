@@ -1,0 +1,37 @@
+"GameInfo"
+{
+	// DO NOT CALL THE STANLEY PARABLE DEMO
+	// SERIOUSLY
+	// LEAVE ME ALONE
+	// -Donovan, 2023
+	// This is what shows up in the 'Third Party Games' area of the Steam games list.
+	game	"SFM"
+	title	"Source FilmMaker"				// Main Menu large Text
+	title2	"powered by Portal 2"	// Main Menu small text
+	type	multiplayer_only
+	GameData	"portal2.fgd"
+	nomodels 1
+	nohimodel 1
+	nocrosshair 0
+	hidden_maps
+	{
+		"test_speakers"		1
+		"test_hardware"		1
+	}
+	nodegraph 0
+	
+	FileSystem
+	{
+		SteamAppId				2012840		
+		ToolsAppId				211		
+
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				portal2/portal2.pak
+			Game				portal2
+			// Game				portal2_content
+			//Game				"|gameinfo_path|../../Portal 2/portal2/"
+		}
+	}
+}

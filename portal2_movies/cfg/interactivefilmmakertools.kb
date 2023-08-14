@@ -1,0 +1,889 @@
+keybindings
+{
+    "#CIFMTool"
+    {
+        "undo"
+        {
+            "keycode"	"KEY_Z"
+            "ctrl"	"1"
+        }
+        "redo"
+        {
+            "keycode"	"KEY_Z"
+            "shift"	"1"
+            "ctrl"	"1"
+        }
+        "timedisplay"
+        {
+            "keycode"	"KEY_T"
+            "ctrl"	"1"
+        }
+        "toggleplay"
+        {
+            "keycode"	"KEY_SPACE"
+        }
+        "toggledir"
+        {
+            "keycode"	"KEY_SPACE"
+            "ctrl"	"1"
+        }
+        "playfaster"
+        {
+            "keycode"	"KEY_PERIOD"
+        }
+        "playreversefaster"
+        {
+            "keycode"	"KEY_COMMA"
+        }
+        "playslower"
+        {
+            "keycode"	"KEY_PERIOD"
+            "ctrl"	"1"
+        }
+        "playreverseslower"
+        {
+            "keycode"	"KEY_COMMA"
+            "ctrl"	"1"
+        }
+        "file_open"
+        {
+            "keycode"	"KEY_O"
+            "ctrl"	"1"
+        }
+        "file_new"
+        {
+            "keycode"	"KEY_N"
+            "ctrl"	"1"
+        }
+        "file_save"
+        {
+            "keycode"	"KEY_S"
+            "ctrl"	"1"
+        }
+        "file_load_map"
+        {
+            "keycode"	"KEY_L"
+            "ctrl"	"1"
+        }
+        "file_layoff"
+        {
+            "keycode"	"KEY_M"
+            "ctrl"	"1"
+        }
+        "edit_cut"
+        {
+            "keycode"	"KEY_X"
+            "ctrl"	"1"
+        }
+        "edit_copy"
+        {
+            "keycode"	"KEY_C"
+            "ctrl"	"1"
+        }
+        "edit_paste"
+        {
+            "keycode"	"KEY_V"
+            "ctrl"	"1"
+        }
+        "edit_pastereference"
+        {
+            "keycode"	"KEY_V"
+            "shift"	"1"
+        }
+        "edit_delete"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "edit_properties"
+        {
+            "keycode"	"KEY_ENTER"
+            "alt"	"1"
+        }
+        "presentmovie"
+        {
+            "keycode"	"KEY_ENTER"
+            "ctrl"	"1"
+        }
+        "ifm_help"
+        {
+            "keycode"	"KEY_F1"
+        }
+        "ts_toggledrawpoints"
+        {
+            "keycode"	"KEY_P"
+        }
+        "ts_center"
+        {
+            "keycode"	"KEY_C"
+        }
+        "ts_toggle_anim_playback"
+        {
+            "keycode"	"KEY_TAB"
+        }
+        "ts_toggle_graph_editor"
+        {
+            "keycode"	"KEY_TAB"
+            "ctrl"	"1"
+        }
+        "cliptop"
+        {
+            "keycode"	"KEY_UP"
+        }
+        "nextcliptop"
+        {
+            "keycode"	"KEY_DOWN"
+        }
+        "prevframe"
+        {
+            "keycode"	"KEY_LEFT"
+        }
+        "nextframe"
+        {
+            "keycode"	"KEY_RIGHT"
+        }
+        "prevhalfsecond"
+        {
+            "keycode"	"KEY_LEFT"
+            "ctrl"	"1"
+        }
+        "nexthalfsecond"
+        {
+            "keycode"	"KEY_RIGHT"
+            "ctrl"	"1"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_HOME"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_END"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_UP"
+            "shift"	"1"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_DOWN"
+            "shift"	"1"
+        }
+        "prevedit"
+        {
+            "keycode"	"KEY_UP"
+            "ctrl"	"1"
+        }
+        "nextedit"
+        {
+            "keycode"	"KEY_DOWN"
+            "ctrl"	"1"
+        }
+        "prev_bookmark"
+        {
+            "keycode"	"KEY_LEFT"
+            "ctrl"	"1"
+            "alt"	"1"
+        }
+        "next_bookmark"
+        {
+            "keycode"	"KEY_RIGHT"
+            "ctrl"	"1"
+            "alt"	"1"
+        }
+        "scrub_prev_bookmark"
+        {
+            "keycode"	"KEY_LBRACKET"
+        }
+        "scrub_next_bookmark"
+        {
+            "keycode"	"KEY_RBRACKET"
+        }
+        "scrub_prev_half_bookmark"
+        {
+            "keycode"	"KEY_LBRACKET"
+            "alt"	"1"
+        }
+        "scrub_next_half_bookmark"
+        {
+            "keycode"	"KEY_RBRACKET"
+            "alt"	"1"
+        }
+        "prev_work_camera"
+        {
+            "keycode"	"KEY_PAGEUP"
+        }
+        "next_work_camera"
+        {
+            "keycode"	"KEY_PAGEDOWN"
+        }
+        "editkeybindings"
+        {
+            "keycode"	"KEY_E"
+            "shift"	"1"
+            "ctrl"	"1"
+            "alt"	"1"
+        }
+        "keybindinghelp"
+        {
+            "keycode"	"KEY_H"
+        }
+    }
+    "Properties"
+    {
+    }
+    "#BxToolClipBrowser"
+    {
+        "deselectall"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "deleteclipr"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "deleteclipr"
+        {
+            "keycode"	"KEY_PAD_DECIMAL"
+        }
+        "deleteclipl"
+        {
+            "keycode"	"KEY_BACKSPACE"
+        }
+    }
+    "#BxToolAnimationSetEditor"
+    {
+        "cancelModification"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_ENTER"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_D"
+            "ctrl"	"1"
+        }
+        "ts_selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+        "ts_invert"
+        {
+            "keycode"	"KEY_I"
+            "ctrl"	"1"
+        }
+        "presetQuickMenu"
+        {
+            "keycode"	"KEY_W"
+        }
+        "repeatQuickPreset"
+        {
+            "keycode"	"KEY_W"
+            "alt"	"1"
+        }
+        "createGroup"
+        {
+            "keycode"	"KEY_G"
+            "ctrl"	"1"
+        }
+        "groupVisible"
+        {
+            "keycode"	"KEY_H"
+            "ctrl"	"1"
+        }
+        "groupSelectable"
+        {
+            "keycode"	"KEY_F"
+            "ctrl"	"1"
+        }
+    }
+    "FileListManager"
+    {
+    }
+    "ScriptEditor"
+    {
+    }
+    "InfoPage"
+    {
+    }
+    "#BxToolTimeline"
+    {
+        "bookmark_head"
+        {
+            "keycode"	"KEY_M"
+        }
+        "bookmark_time_selection"
+        {
+            "keycode"	"KEY_M"
+            "alt"	"1"
+        }
+        "ts_invert"
+        {
+            "keycode"	"KEY_I"
+            "ctrl"	"1"
+        }
+        "toggle_expand_trackgroup"
+        {
+            "keycode"	"KEY_Q"
+        }
+        "hide_trackgroup"
+        {
+            "keycode"	"KEY_V"
+        }
+        "show_hide_trackgroup"
+        {
+            "keycode"	"KEY_T"
+        }
+        "toggle_record_narration"
+        {
+            "keycode"	"KEY_Y"
+        }
+        "preview_clip"
+        {
+            "keycode"	"KEY_L"
+        }
+        "bump_clip_back_frame"
+        {
+            "keycode"	"KEY_LEFT"
+            "alt"	"1"
+        }
+        "bump_clip_fwd_frame"
+        {
+            "keycode"	"KEY_RIGHT"
+            "alt"	"1"
+        }
+        "prev_bookmark"
+        {
+            "keycode"	"KEY_LEFT"
+            "ctrl"	"1"
+            "alt"	"1"
+        }
+        "next_bookmark"
+        {
+            "keycode"	"KEY_RIGHT"
+            "ctrl"	"1"
+            "alt"	"1"
+        }
+        "scrub_prev_bookmark"
+        {
+            "keycode"	"KEY_LBRACKET"
+        }
+        "scrub_next_bookmark"
+        {
+            "keycode"	"KEY_RBRACKET"
+        }
+        "scrub_prev_half_bookmark"
+        {
+            "keycode"	"KEY_LBRACKET"
+            "alt"	"1"
+        }
+        "scrub_next_half_bookmark"
+        {
+            "keycode"	"KEY_RBRACKET"
+            "alt"	"1"
+        }
+        "kbdelete"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "kbdelete"
+        {
+            "keycode"	"KEY_PAD_DECIMAL"
+        }
+        "backspace"
+        {
+            "keycode"	"KEY_BACKSPACE"
+        }
+        "deleteclipr"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "deleteclipr"
+        {
+            "keycode"	"KEY_PAD_DECIMAL"
+        }
+        "deleteclipl"
+        {
+            "keycode"	"KEY_BACKSPACE"
+        }
+        "insertclip"
+        {
+            "keycode"	"KEY_INSERT"
+        }
+        "insertclip"
+        {
+            "keycode"	"KEY_PAD_0"
+        }
+        "stick_in"
+        {
+            "keycode"	"KEY_I"
+        }
+        "roll_in"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+        }
+        "stick_in_seq"
+        {
+            "keycode"	"KEY_I"
+            "alt"	"1"
+        }
+        "roll_in_seq"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+            "alt"	"1"
+        }
+        "stick_out"
+        {
+            "keycode"	"KEY_O"
+        }
+        "roll_out"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+        }
+        "stick_out_seq"
+        {
+            "keycode"	"KEY_O"
+            "alt"	"1"
+        }
+        "roll_out_seq"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+            "alt"	"1"
+        }
+        "splitclip"
+        {
+            "keycode"	"KEY_K"
+        }
+        "bladetool"
+        {
+            "keycode"	"KEY_B"
+        }
+        "createcamera"
+        {
+            "keycode"	"KEY_C"
+        }
+        "frameclips"
+        {
+            "keycode"	"KEY_F"
+        }
+        "groupclips"
+        {
+            "keycode"	"KEY_G"
+        }
+        "selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+        "deselectall"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "zoomout"
+        {
+            "keycode"	"KEY_U"
+        }
+    }
+    "#BxToolStoryboard"
+    {
+        "deleteclipr"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "deleteclipr"
+        {
+            "keycode"	"KEY_PAD_DECIMAL"
+        }
+        "deleteclipl"
+        {
+            "keycode"	"KEY_BACKSPACE"
+        }
+        "insertclip"
+        {
+            "keycode"	"KEY_INSERT"
+        }
+        "insertclip"
+        {
+            "keycode"	"KEY_PAD_0"
+        }
+        "stick_in"
+        {
+            "keycode"	"KEY_I"
+        }
+        "roll_in"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+        }
+        "stick_in_seq"
+        {
+            "keycode"	"KEY_I"
+            "alt"	"1"
+        }
+        "roll_in_seq"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+            "alt"	"1"
+        }
+        "stick_out"
+        {
+            "keycode"	"KEY_O"
+        }
+        "roll_out"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+        }
+        "stick_out_seq"
+        {
+            "keycode"	"KEY_O"
+            "alt"	"1"
+        }
+        "roll_out_seq"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+            "alt"	"1"
+        }
+        "splitclip"
+        {
+            "keycode"	"KEY_K"
+        }
+        "bladetool"
+        {
+            "keycode"	"KEY_B"
+        }
+        "createcamera"
+        {
+            "keycode"	"KEY_C"
+        }
+        "frameclips"
+        {
+            "keycode"	"KEY_F"
+        }
+        "groupclips"
+        {
+            "keycode"	"KEY_G"
+        }
+        "selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+        "deselectall"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "zoomout"
+        {
+            "keycode"	"KEY_U"
+        }
+    }
+    "#BxToolEngineViewport"
+    {
+        "cliptop"
+        {
+            "keycode"	"KEY_UP"
+        }
+        "nextcliptop"
+        {
+            "keycode"	"KEY_DOWN"
+        }
+        "prevframe"
+        {
+            "keycode"	"KEY_LEFT"
+        }
+        "nextframe"
+        {
+            "keycode"	"KEY_RIGHT"
+        }
+        "prevhalfsecond"
+        {
+            "keycode"	"KEY_LEFT"
+            "ctrl"	"1"
+        }
+        "nexthalfsecond"
+        {
+            "keycode"	"KEY_RIGHT"
+            "ctrl"	"1"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_HOME"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_END"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_UP"
+            "shift"	"1"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_DOWN"
+            "shift"	"1"
+        }
+        "prevedit"
+        {
+            "keycode"	"KEY_UP"
+            "ctrl"	"1"
+        }
+        "nextedit"
+        {
+            "keycode"	"KEY_DOWN"
+            "ctrl"	"1"
+        }
+        "stick_in"
+        {
+            "keycode"	"KEY_I"
+        }
+        "roll_in"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+        }
+        "stick_out"
+        {
+            "keycode"	"KEY_O"
+        }
+        "roll_out"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+        }
+        "splitclip"
+        {
+            "keycode"	"KEY_K"
+        }
+        "bladetool"
+        {
+            "keycode"	"KEY_B"
+        }
+        "createcamera"
+        {
+            "keycode"	"KEY_C"
+        }
+        "cancelModification"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_ENTER"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_D"
+            "ctrl"	"1"
+        }
+        "ts_selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+        "ts_invert"
+        {
+            "keycode"	"KEY_I"
+            "ctrl"	"1"
+        }
+        "presetQuickMenu"
+        {
+            "keycode"	"KEY_W"
+        }
+        "repeatQuickPreset"
+        {
+            "keycode"	"KEY_W"
+            "alt"	"1"
+        }
+    }
+    "ToolsConsole"
+    {
+    }
+    "#CC_EditorPage_Title"
+    {
+    }
+    "#CC_PageTransportPage_Title"
+    {
+        "cc_space"
+        {
+            "keycode"	"KEY_SPACE"
+        }
+        "cc_backspace"
+        {
+            "keycode"	"KEY_BACKSPACE"
+        }
+        "cc_home"
+        {
+            "keycode"	"KEY_HOME"
+        }
+        "cc_end"
+        {
+            "keycode"	"KEY_END"
+        }
+        "cc_pageup"
+        {
+            "keycode"	"KEY_PAGEUP"
+        }
+        "cc_pagedown"
+        {
+            "keycode"	"KEY_PAGEDOWN"
+        }
+        "cc_cut"
+        {
+            "keycode"	"KEY_X"
+            "ctrl"	"1"
+        }
+        "cc_copy"
+        {
+            "keycode"	"KEY_C"
+            "ctrl"	"1"
+        }
+        "cc_paste"
+        {
+            "keycode"	"KEY_V"
+            "ctrl"	"1"
+        }
+        "cc_delete"
+        {
+            "keycode"	"KEY_DELETE"
+        }
+        "cc_selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+    }
+    "#CC_TemplatePage_Title"
+    {
+    }
+    "FullscreenViewport"
+    {
+        "cliptop"
+        {
+            "keycode"	"KEY_UP"
+        }
+        "nextcliptop"
+        {
+            "keycode"	"KEY_DOWN"
+        }
+        "prevframe"
+        {
+            "keycode"	"KEY_LEFT"
+        }
+        "nextframe"
+        {
+            "keycode"	"KEY_RIGHT"
+        }
+        "prevhalfsecond"
+        {
+            "keycode"	"KEY_LEFT"
+            "ctrl"	"1"
+        }
+        "nexthalfsecond"
+        {
+            "keycode"	"KEY_RIGHT"
+            "ctrl"	"1"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_HOME"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_END"
+        }
+        "sequencetop"
+        {
+            "keycode"	"KEY_UP"
+            "shift"	"1"
+        }
+        "sequencebottom"
+        {
+            "keycode"	"KEY_DOWN"
+            "shift"	"1"
+        }
+        "prevedit"
+        {
+            "keycode"	"KEY_UP"
+            "ctrl"	"1"
+        }
+        "nextedit"
+        {
+            "keycode"	"KEY_DOWN"
+            "ctrl"	"1"
+        }
+        "stick_in"
+        {
+            "keycode"	"KEY_I"
+        }
+        "roll_in"
+        {
+            "keycode"	"KEY_I"
+            "shift"	"1"
+        }
+        "stick_out"
+        {
+            "keycode"	"KEY_O"
+        }
+        "roll_out"
+        {
+            "keycode"	"KEY_O"
+            "shift"	"1"
+        }
+        "splitclip"
+        {
+            "keycode"	"KEY_K"
+        }
+        "bladetool"
+        {
+            "keycode"	"KEY_B"
+        }
+        "createcamera"
+        {
+            "keycode"	"KEY_C"
+        }
+        "cancelModification"
+        {
+            "keycode"	"KEY_ESCAPE"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_ENTER"
+        }
+        "finishModification"
+        {
+            "keycode"	"KEY_D"
+            "ctrl"	"1"
+        }
+        "ts_selectall"
+        {
+            "keycode"	"KEY_A"
+            "ctrl"	"1"
+        }
+        "ts_invert"
+        {
+            "keycode"	"KEY_I"
+            "ctrl"	"1"
+        }
+        "presetQuickMenu"
+        {
+            "keycode"	"KEY_W"
+        }
+        "repeatQuickPreset"
+        {
+            "keycode"	"KEY_W"
+            "alt"	"1"
+        }
+    }
+}
